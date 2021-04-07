@@ -14,14 +14,13 @@ print(list2 + list1)
 n=int(input("Tek basamaklı bir tam sayı giriniz:"))
 if not -10<n<10:
     print("yanlış")
-else:
-    
-    if n<=0:
-        a= list(range(n-1))
-        b=[i for i in a if i%2==0]
-        
-    elif 0<=n<10:
-        a= list(range(n+1))
-        b= [i for i in a if i%2==0]
-        
+elif n<=0:
+    a= list(range((n*-1)+1))
+    b=[-i for i in a if i%2==0]
     print(b)
+elif 0<=n<10:
+    a= list(range(n+1))
+    b= [i for i in a if i%2==0]
+    print(b)
+else:
+    print("Tek basamaklı bir tam sayı girmediniz.")
