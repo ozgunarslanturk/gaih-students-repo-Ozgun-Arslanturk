@@ -12,7 +12,7 @@ print(list2 + list1)
 
 
 n=int(input("Tek basamaklı bir tam sayı giriniz:"))
-if not -10<=n<10:
+if not -10<n<10:
     print("yanlış")
 else:
     
