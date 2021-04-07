@@ -6,3 +6,22 @@ n=int(len(list))
 list1=list[0:n//2]
 list2=list[n//2:n]
 print(list2 + list1)
+
+
+#Ask the user to input a single digit integer to a variable 'n'.Then, print out all of the even numbers from 0 to n (including n)
+
+
+n=int(input("Tek basamaklı bir tam sayı giriniz:"))
+if not -10<=n<10:
+    print("yanlış")
+else:
+    
+    if n<=0:
+        a= list(range(n-1))
+        b=[i for i in a if i%2==0]
+        
+    elif 0<=n<10:
+        a= list(range(n+1))
+        b= [i for i in a if i%2==0]
+        
+    print(b)
