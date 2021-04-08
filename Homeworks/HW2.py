@@ -14,3 +14,17 @@ else:
 
     
     
+    
+#EKSTRA (Dictionary kullanarak)
+
+d={"özgün":123456}
+d2={}
+a=str(input("Kullanıcı adınızı giriniz:"))
+b=int(input("Şifrenizi giriniz:"))
+d2[a]= b
+if d2==d:
+    print("doğru.")
+else:
+    print("hatalı şifre veya kullanıcı adı.")
+    
+    
