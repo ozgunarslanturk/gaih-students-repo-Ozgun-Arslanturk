@@ -1,4 +1,4 @@
-#kullanıcı 
+#user login application. 
 
 kullanıcıadı=str("özgün")
 şifre=(123456)
@@ -11,3 +11,6 @@ if ad==a:
         print("şifre yanlış")
 else:
     print("kullanıcı adı yanlış.")
+
+    
+    
