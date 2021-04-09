@@ -15,11 +15,11 @@ n=int(input("Tek basamaklı bir tam sayı giriniz:"))
 if not -10<n<10:
     print("yanlış")
 elif n<=0:
-    a= list(range((n*-1)+1))
+    a=(range((n*-1)+1))
     b=[-i for i in a if i%2==0]
     print(b)
 elif 0<=n<10:
-    a= list(range(n+1))
+    a=(range(n+1))
     b= [i for i in a if i%2==0]
     print(b)
 else:
